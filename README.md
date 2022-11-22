@@ -7,6 +7,7 @@ Was ich aber gerne betonen möchte ist, dass weder Microservices noch der "Modul
 - Saga Pattern
 - tatsächlich verteiltes Deployment auf untersch. Servern
 - Sicherheit
+
 (um nur einiges zu nennen) erhöhen die Komplexität der Umsetzung einer Software in Form von Microservices enorm. Das sollte nie vergessen werden.
 
 Die große Herausforderungen bei Microservices, aber auch beim "Modular Monolith", liegt m.E. ganz woanders: in der Modularisierung der Businesslogik und zwar so, dass es kein kompakter Monolith mehr wird.
