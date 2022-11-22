@@ -8,7 +8,9 @@ using System.Reflection;
 
 namespace BuildingBlocks.IntegrationEventLog
 {
-    public class IntegrationEventLogService : IIntegrationEventLogService, IDisposable
+    public class IntegrationEventLogService : 
+      IIntegrationEventLogService, 
+      IDisposable
     {
         private readonly IntegrationEventLogContext _integrationEventLogContext;
         private readonly DbConnection _dbConnection;
