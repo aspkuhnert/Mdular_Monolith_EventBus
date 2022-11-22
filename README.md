@@ -16,6 +16,7 @@ Die große Herausforderungen bei Microservices, aber auch beim "Modular Monolith
 
 ## BankingModule
 
+```
 dotnet add package Microsoft.EntityFrameworkCore.Design
 
 dotnet ef migrations add InitialCreate --context BankingContext
@@ -23,11 +24,14 @@ dotnet ef migrations add InitialCreate --context IntegrationEventLogContext
 
 dotnet ef database update --context BankingContext
 dotnet ef database update --context IntegrationEventLogContext
+```
 
 ## TransferModule
 
+```
 dotnet add package Microsoft.EntityFrameworkCore.Design
 
 dotnet ef migrations add InitialCreate --context TransferContext
 
 dotnet ef database update --context TransferContext
+```
